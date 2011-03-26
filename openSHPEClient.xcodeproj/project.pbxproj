@@ -23,14 +23,14 @@
 		7840310E133E96B600FC2F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78403110133E96B600FC2F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78403112133E96B600FC2F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78403116133E96B600FC2F37 /* openSHPEClient-Info.plist */ = {isa = PBXFileReference; path = "openSHPEClient-Info.plist"; sourceTree = "<group>"; };
+		78403116133E96B600FC2F37 /* openSHPEClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openSHPEClient-Info.plist"; sourceTree = "<group>"; };
 		78403118133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7840311A133E96B600FC2F37 /* openSHPEClient-Prefix.pch */ = {isa = PBXFileReference; path = "openSHPEClient-Prefix.pch"; sourceTree = "<group>"; };
+		7840311A133E96B600FC2F37 /* openSHPEClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openSHPEClient-Prefix.pch"; sourceTree = "<group>"; };
 		7840311B133E96B600FC2F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7840311D133E96B600FC2F37 /* openSHPEClientAppDelegate.h */ = {isa = PBXFileReference; path = openSHPEClientAppDelegate.h; sourceTree = "<group>"; };
+		7840311D133E96B600FC2F37 /* openSHPEClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openSHPEClientAppDelegate.h; sourceTree = "<group>"; };
 		7840311E133E96B600FC2F37 /* openSHPEClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSHPEClientAppDelegate.m; sourceTree = "<group>"; };
 		78403121133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		78403123133E96B600FC2F37 /* openSHPEClientViewController.h */ = {isa = PBXFileReference; path = openSHPEClientViewController.h; sourceTree = "<group>"; };
+		78403123133E96B600FC2F37 /* openSHPEClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openSHPEClientViewController.h; sourceTree = "<group>"; };
 		78403124133E96B600FC2F37 /* openSHPEClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSHPEClientViewController.m; sourceTree = "<group>"; };
 		78403127133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/openSHPEClientViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
