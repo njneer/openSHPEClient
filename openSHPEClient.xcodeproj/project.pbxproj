@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7840310F133E96B600FC2F37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7840310E133E96B600FC2F37 /* UIKit.framework */; };
+		78403111133E96B600FC2F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78403110133E96B600FC2F37 /* Foundation.framework */; };
+		78403113133E96B600FC2F37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78403112133E96B600FC2F37 /* CoreGraphics.framework */; };
+		78403119133E96B600FC2F37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78403117133E96B600FC2F37 /* InfoPlist.strings */; };
+		7840311C133E96B600FC2F37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7840311B133E96B600FC2F37 /* main.m */; };
+		7840311F133E96B600FC2F37 /* openSHPEClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7840311E133E96B600FC2F37 /* openSHPEClientAppDelegate.m */; };
+		78403122133E96B600FC2F37 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78403120133E96B600FC2F37 /* MainWindow.xib */; };
+		78403125133E96B600FC2F37 /* openSHPEClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78403124133E96B600FC2F37 /* openSHPEClientViewController.m */; };
+		78403128133E96B600FC2F37 /* openSHPEClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78403126133E96B600FC2F37 /* openSHPEClientViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7840310A133E96B600FC2F37 /* openSHPEClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openSHPEClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7840310E133E96B600FC2F37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78403110133E96B600FC2F37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78403112133E96B600FC2F37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78403116133E96B600FC2F37 /* openSHPEClient-Info.plist */ = {isa = PBXFileReference; path = "openSHPEClient-Info.plist"; sourceTree = "<group>"; };
+		78403118133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7840311A133E96B600FC2F37 /* openSHPEClient-Prefix.pch */ = {isa = PBXFileReference; path = "openSHPEClient-Prefix.pch"; sourceTree = "<group>"; };
+		7840311B133E96B600FC2F37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7840311D133E96B600FC2F37 /* openSHPEClientAppDelegate.h */ = {isa = PBXFileReference; path = openSHPEClientAppDelegate.h; sourceTree = "<group>"; };
+		7840311E133E96B600FC2F37 /* openSHPEClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSHPEClientAppDelegate.m; sourceTree = "<group>"; };
+		78403121133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		78403123133E96B600FC2F37 /* openSHPEClientViewController.h */ = {isa = PBXFileReference; path = openSHPEClientViewController.h; sourceTree = "<group>"; };
+		78403124133E96B600FC2F37 /* openSHPEClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSHPEClientViewController.m; sourceTree = "<group>"; };
+		78403127133E96B600FC2F37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/openSHPEClientViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78403107133E96B600FC2F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7840310F133E96B600FC2F37 /* UIKit.framework in Frameworks */,
+				78403111133E96B600FC2F37 /* Foundation.framework in Frameworks */,
+				78403113133E96B600FC2F37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784030FF133E96B600FC2F37 = {
+			isa = PBXGroup;
+			children = (
+				78403114133E96B600FC2F37 /* openSHPEClient */,
+				7840310D133E96B600FC2F37 /* Frameworks */,
+				7840310B133E96B600FC2F37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7840310B133E96B600FC2F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7840310A133E96B600FC2F37 /* openSHPEClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7840310D133E96B600FC2F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7840310E133E96B600FC2F37 /* UIKit.framework */,
+				78403110133E96B600FC2F37 /* Foundation.framework */,
+				78403112133E96B600FC2F37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78403114133E96B600FC2F37 /* openSHPEClient */ = {
+			isa = PBXGroup;
+			children = (
+				7840311D133E96B600FC2F37 /* openSHPEClientAppDelegate.h */,
+				7840311E133E96B600FC2F37 /* openSHPEClientAppDelegate.m */,
+				78403120133E96B600FC2F37 /* MainWindow.xib */,
+				78403123133E96B600FC2F37 /* openSHPEClientViewController.h */,
+				78403124133E96B600FC2F37 /* openSHPEClientViewController.m */,
+				78403126133E96B600FC2F37 /* openSHPEClientViewController.xib */,
+				78403115133E96B600FC2F37 /* Supporting Files */,
+			);
+			path = openSHPEClient;
+			sourceTree = "<group>";
+		};
+		78403115133E96B600FC2F37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78403116133E96B600FC2F37 /* openSHPEClient-Info.plist */,
+				78403117133E96B600FC2F37 /* InfoPlist.strings */,
+				7840311A133E96B600FC2F37 /* openSHPEClient-Prefix.pch */,
+				7840311B133E96B600FC2F37 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78403109133E96B600FC2F37 /* openSHPEClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7840312B133E96B600FC2F37 /* Build configuration list for PBXNativeTarget "openSHPEClient" */;
+			buildPhases = (
+				78403106133E96B600FC2F37 /* Sources */,
+				78403107133E96B600FC2F37 /* Frameworks */,
+				78403108133E96B600FC2F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = openSHPEClient;
+			productName = openSHPEClient;
+			productReference = 7840310A133E96B600FC2F37 /* openSHPEClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78403101133E96B600FC2F37 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 78403104133E96B600FC2F37 /* Build configuration list for PBXProject "openSHPEClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 784030FF133E96B600FC2F37;
+			productRefGroup = 7840310B133E96B600FC2F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78403109133E96B600FC2F37 /* openSHPEClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78403108133E96B600FC2F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78403119133E96B600FC2F37 /* InfoPlist.strings in Resources */,
+				78403122133E96B600FC2F37 /* MainWindow.xib in Resources */,
+				78403128133E96B600FC2F37 /* openSHPEClientViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78403106133E96B600FC2F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7840311C133E96B600FC2F37 /* main.m in Sources */,
+				7840311F133E96B600FC2F37 /* openSHPEClientAppDelegate.m in Sources */,
+				78403125133E96B600FC2F37 /* openSHPEClientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78403117133E96B600FC2F37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78403118133E96B600FC2F37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78403120133E96B600FC2F37 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78403121133E96B600FC2F37 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		78403126133E96B600FC2F37 /* openSHPEClientViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78403127133E96B600FC2F37 /* en */,
+			);
+			name = openSHPEClientViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78403129133E96B600FC2F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7840312A133E96B600FC2F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		7840312C133E96B600FC2F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openSHPEClient/openSHPEClient-Prefix.pch";
+				INFOPLIST_FILE = "openSHPEClient/openSHPEClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7840312D133E96B600FC2F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "openSHPEClient/openSHPEClient-Prefix.pch";
+				INFOPLIST_FILE = "openSHPEClient/openSHPEClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78403104133E96B600FC2F37 /* Build configuration list for PBXProject "openSHPEClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78403129133E96B600FC2F37 /* Debug */,
+				7840312A133E96B600FC2F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7840312B133E96B600FC2F37 /* Build configuration list for PBXNativeTarget "openSHPEClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7840312C133E96B600FC2F37 /* Debug */,
+				7840312D133E96B600FC2F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78403101133E96B600FC2F37 /* Project object */;
+}
