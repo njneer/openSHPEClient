@@ -3,7 +3,7 @@
 //  openSHPEClient
 //
 //  Created by Fausto Carrera on 3/26/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 SHPE Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
